@@ -24,6 +24,14 @@ call pathogen#infect()
 " Sets how many lines of history VIM has to remember
 set history=500
 
+colorscheme dracula
+
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
+
 " Enable filetype plugins
 "filetype plugin on
 "filetype indent on
