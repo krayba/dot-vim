@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/kedarraybagkar/MyData/pbs/workspace/ice/pbs-0110-war/wildfly-config'
+let g:netrw_dirhist_2='/Users/kedarraybagkar/MyData/pbs/workspace/ice/pbs-0090-integration/ice-integrations-service-impl'
+let g:netrw_dirhist_3='/Users/kedarraybagkar/MyData/pbs/workspace/ice/pbs-0110-war/changelogs'
+let g:netrw_dirhist_4='/Users/kedarraybagkar/MyData/pbs/workspace/ice/pbs-0900-docker-compose/pbs/all-in-one'
+let g:netrw_dirhist_5='/Users/kedarraybagkar/MyData/pbs/workspace/ice/pbs-0900-docker-compose/pbs'
+let g:netrw_dirhist_6='/Users/kedarraybagkar/MyData/pbs/workspace/ice/pbs-0900-docker-compose/pbs/all-in-one'
+let g:netrw_dirhist_7='/Users/kedarraybagkar/Documents/workspace/pbs-local/keycloak/t000000000/dev'
+let g:netrw_dirhist_8='/Users/kedarraybagkar/MyData/pbs/workspace/ice/pbs-0110-war/wildfly-config'
