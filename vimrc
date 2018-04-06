@@ -26,6 +26,8 @@ set history=500
 
 colorscheme dracula
 
+set guifont=Monoco:h10
+
 if has('gui_running')
     set background=light
 else
@@ -41,8 +43,8 @@ endif
 "
 "" With a map leader it's possible to do extra key combinations
 "" like <leader>w saves the current file
-"let mapleader = ","
-"let g:mapleader = ","
+let mapleader = ","
+let g:mapleader = ","
 "
 "" Fast saving
 "nmap <leader>w :w!<cr>
@@ -61,9 +63,9 @@ endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" => VIM user interface
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"set showcmd             " show command in bottom bar
-"set cursorline          " highlight current line
-"set wildmenu            " visual autocomplete for command menu
+set showcmd             " show command in bottom bar
+set cursorline          " highlight current line
+set wildmenu            " visual autocomplete for command menu
 "
 "" Set 7 lines to the cursor - when moving vertically using j/k
 "set so=7
@@ -101,13 +103,13 @@ endif
 "set smartcase
 "
 "" Highlight search results
-"set hlsearch
+set hlsearch
 "
 "" Makes search act like search in modern browsers
 "set incsearch 
 "
 "" turn off search highlight
-"nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader><space> :nohlsearch<CR>
 "
 "" Don't redraw while executing macros (good performance config)
 "set lazyredraw 
